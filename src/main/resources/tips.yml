@@ -1,0 +1,1258 @@
+TIPS:
+  TIP1:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&6&lTIP &e#1"
+      ENGLISH-LORE:
+        - "&7"
+        - "&7&m---------------------"
+        - "&6Command: &e/f duel"
+        - "&7&m---------------------"
+        - "&7"
+        - "&6&l➟ &eFaction Duels:"
+        - "&7"
+        - "&eClick for more information!"
+      SPANISH-NAME: "&6&lTIP &e#1"
+      SPANISH-LORE:
+        - "&7"
+        - "&7&m---------------------"
+        - "&6Comando: &e/f duel"
+        - "&7&m---------------------"
+        - "&7"
+        - "&6&l➟ &eFaction Duels:"
+        - "&7"
+        - "&e¡Clic para más información!"
+    ENGLISH-MESSAGE:
+      - "&7"
+      - "&7[&6&lTIP&7] &eAre you being challenged by an enemy faction?"
+      - "&eSimple, solve that doubt of who is better with &7/f duel&e."
+      - "&7"
+    SPANISH-MESSAGE:
+      - "&7"
+      - "&7[&6&lTIP&7] &e¿Te está desafiando una faction enemiga?"
+      - "&eSimple, resuelve esa duda de quién es mejor con /f duel&e."
+      - "&7"
+  TIP2:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP3:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP4:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP5:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP6:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP7:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP8:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP10:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP11:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP12:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP13:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP14:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP15:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP16:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP17:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP18:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP19:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP20:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP21:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP22:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP23:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP24:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP25:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP26:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP27:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP28:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP29:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP30:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP31:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP32:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP33:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP34:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP35:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP36:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP37:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP38:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP39:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP40:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP41:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP42:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP43:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP44:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP45:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP46:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP47:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP48:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP49:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP50:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP51:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP52:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP53:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP54:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP55:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP56:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP58:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP57:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP59:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP60:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP61:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP62:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP63:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP64:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP65:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP66:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP67:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP68:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP69:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP70:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP71:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP72:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP73:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."
+  TIP9:
+    ENABLED: true
+    ITEM:
+      ENGLISH-NAME: "&c&lTip #1"
+      ENGLISH-LORE:
+        - "&7&oThis is the first tip."
+        - "&7&oIt is a good tip."
+      SPANISH-NAME: "&c&lTip #1"
+      SPANISH-LORE:
+        - "&7&oEste es el primer tip."
+        - "&7&oEs un buen tip."
+    ENGLISH-MESSAGE:
+      - "&7&oThis is the first tip."
+      - "&7&oIt is a good tip."
+    SPANISH-MESSAGE:
+      - "&7&oEste es el primer tip."
+      - "&7&oEs un buen tip."

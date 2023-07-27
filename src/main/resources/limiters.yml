@@ -1,0 +1,79 @@
+#=========================================================#
+#               Potion limiter configuration              #
+#=========================================================#
+#  Use -1 for no change                                   #
+#  Use 0 to disable potion                                #
+#  Use other values to limit potion level                 #
+#  Change extended to false to disable extended potions   #
+#=========================================================#
+
+POTION_LIMITER:
+  SPEED:
+    LEVEL: -1
+    EXTENDED: true
+  SLOW:
+    LEVEL: 1
+    EXTENDED: false
+  FAST_DIGGING:
+    LEVEL: -1
+    EXTENDED: true
+  SLOW_DIGGING:
+    LEVEL: -1
+    EXTENDED: true
+  INCREASE_DAMAGE:
+    LEVEL: 0
+    EXTENDED: true
+  HEAL:
+    LEVEL: -1
+    EXTENDED: true
+  HARM:
+    LEVEL: 0
+    EXTENDED: true
+  JUMP:
+    LEVEL: -1
+    EXTENDED: true
+  CONFUSION:
+    LEVEL: -1
+    EXTENDED: true
+  REGENERATION:
+    LEVEL: 0
+    EXTENDED: true
+  DAMAGE_RESISTANCE:
+    LEVEL: -1
+    EXTENDED: true
+  FIRE_RESISTANCE:
+    LEVEL: -1
+    EXTENDED: true
+  WATER_BREATHING:
+    LEVEL: -1
+    EXTENDED: true
+  INVISIBILITY:
+    LEVEL: -1
+    EXTENDED: true
+  BLINDNESS:
+    LEVEL: -1
+    EXTENDED: true
+  NIGHT_VISION:
+    LEVEL: -1
+    EXTENDED: true
+  HUNGER:
+    LEVEL: 0
+    EXTENDED: true
+  WEAKNESS:
+    LEVEL: 0
+    EXTENDED: true
+  POISON:
+    LEVEL: 1
+    EXTENDED: false
+  WITHER:
+    LEVEL: -1
+    EXTENDED: true
+  HEALTH_BOOST:
+    LEVEL: -1
+    EXTENDED: true
+  ABSORPTION:
+    LEVEL: -1
+    EXTENDED: true
+  SATURATION:
+    LEVEL: -1
+    EXTENDED: true

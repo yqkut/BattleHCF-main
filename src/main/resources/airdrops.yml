@@ -1,0 +1,10 @@
+settings:
+  airdrop:
+    display-name: '&9Airdrop &7&o(Right Click)'
+    lore:
+      - '&7Right click to open and get a unique rewards.'
+      - '&7purchase at &9store.battle.rip'
+    possible-rewards: 4
+    destroy-after: 60
+preview:
+  items: ""

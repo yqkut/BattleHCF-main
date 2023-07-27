@@ -1,0 +1,65 @@
+onOpenFenceGateLaunch: true
+onClickAutoLaunch:
+  -  "FURNACE"
+  -  "ANVIL"
+  -  "SIGN"
+  -  "SIGN_POST"
+  -  "WALL_SIGN"
+  -  "CHEST"
+  -  "ENDER_CHEST"
+  -  "TRAPPED_CHEST"
+  -  "WORKBENCH"
+  -  "ENCHANTMENT_TABLE"
+  -  "BEACON"
+  -  "ANVIL"
+thruSlabs: true
+thruStairs: true
+thruCobbleWalls: true
+thruBed: true
+thruPortalFrame: true
+thruEnchantTable: true
+thruChests: true
+thruAnvil: true
+thruDayLightSensor: true
+thruTrapDoor: true
+thruPiston: true
+thruSlabsCrossPearl: true
+thruStairsCrossPearl: true
+thruPistonsCrossPearl: true
+thruAnvilCrossPearl: true
+thruPortalFrameCrossPearl: true
+thruEnchantTableCrossPearl: true
+thruBedCrossPearl: true
+thruChestsCrossPearl: true
+thruCobbleWallCrossPearl: true
+thruDayLightSensorCrossPearl: true
+thruTrapDoorCrossPearl: true
+thruSlabsDiagonal: true
+thruStairsHorizontal: true
+thruPistonsHorizontal: true
+thruAnvilHorizontal: true
+thruPortalFrameHorizontal: true
+thruEnchantTableHorizontal: true
+thruBedHorizontal: true
+thruChestsHorizontal: true
+thruCobbleWallHorizontal: true
+thruDayLightSensorHorizontal: true
+thruTrapDoorHorizontal: true
+thruFences: true
+thruCobweb: true
+thruString: true
+pearlDamage: 1.0
+pearlParticles: true
+pearlParticlesAmount: true
+refundRiskyPearl: true
+refundIfSoClose: true
+refundPearlIfSuffocating: true
+fixWallsGlitch: true
+fixFenceGateGlitch: true
+betterHitDetection: true
+getOutFromOneByOne: true
+refundIfSoCloseDistance: 1.0
+hitThruBlock: true
+preThruBlock: true
+antiglitchChestFence: true
+antiglitchHopperFence: false

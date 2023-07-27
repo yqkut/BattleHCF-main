@@ -1,0 +1,1218 @@
+###################################
+Settings:
+  Enchantment-Book-Item: 'BOOK' #The item that the enchantment book is.
+  Enchantment-Book-Glowing: true #Toggle on or off if the book will have an enchanted look.
+  GUISize: 45 #The size of the GUI, must be a factor of 9
+  EnchantmentBookLore: #The lore on the enchantments books.
+    - '&7Drag book and drop on Item.'
+    - '&7Right click for more Info.'
+    - ''
+    - '%description%'
+    - ''
+    - '&4%destroy_rate% Destroy Chance'
+    - '&a%success_rate% Success Chance'
+  LostBook: #Lost book options.
+    Item: 'BOOK' #The item the lost books are.
+    Name: '&8&l&nA Lost %category%&8&l&n Book' #The name of the lost books.
+    Lore: #The lore of the lost books.
+      - '&7This book has been lost for centuries'
+      - '&7It is said to be an enchantment book from %category%'
+      - '&7But you must clean it off to find out what kind it is.'
+      - '&7&l(&6&l!&7&l) &7Right Click to clean off.'
+  Scrambler:
+    Item: 'DOUBLE_PLANT' #The item it will be.
+    Glowing: true #If it has a glowing effect.
+    Name: '&e&lThe Grand Scrambler' #The name of the item.
+    Lore: #The lore of the item.
+      - '&7The &e&lThe Grand Scrambler &7will allow'
+      - '&7you to re-roll the destroy and success rates.'
+      - '&7Drag and drop it on an enchantment book'
+      - '&7to get a new destroy and success rate.'
+    GUI: #Options for the GUI.
+      Name: '&8Rolling the &eScrambler' #Name of the GUI.
+      Toggle: true #If the GUI will show. Warning>> This may cause lag if a lot of players are using it all the time.
+      Pointer: #The pointer in the middle of the GUI.
+        Item: 'REDSTONE_TORCH_ON' #The item the pointer is.
+        Name: '&c&lPointer' #The name of the pointer.
+        Lore: #The lore on the pointer.
+          - '&7Whatever percents the item lands on'
+          - '&7will be the new percents on your book.'
+    InGUI: false #If you can buy it in the GUI.
+    Slot: 1 #The slot the item will be in.
+    GUIName: '&e&lThe Grand Scrambler' #Name of the item in the GUI.
+    GUILore: #The lore of the item in the GUI.
+      - '&7The &e&lThe Grand Scrambler &7will allow'
+      - '&7you to re-roll the destroy and success rates.'
+      - '&7Drag and drop it on an enchantment book'
+      - '&7to get a new destroy and success rate.'
+      - ''
+      - '&eCost: &e&l$800'
+  GKitz: #GKitz GUI option.
+    InGUI: false #If you can open the GKitz GUI from the main /ce gui.
+    Enabled: true #If the GKitz option is enabled on the server.
+    Slot: 1 #The slot it will be in.
+    Item: 'DIAMOND_CHESTPLATE' #The item it is.
+    Glowing: true #If it has a glowing effect.
+    Name: '&c&lGKits' #The name of the item.
+    Lore: #The lore of the item.
+      - '&6>>&7&nClick to open&6<<'
+  ProtectionCrystal:
+    InGUI: false #If it's in the GUI.
+    Slot: 1 #Slot it is in
+    Item: 'EMERALD' #Item it is
+    Glowing: true #If it is enchanted
+    Protected: '&6Ancient Protection' #The lore that goes on the item that is protected.
+    Lose-Protection-On-Death: true #If true then when the player dies they get the item but it loses its protection.
+    Chance: #The option to allow protection to fail.
+      Toggle: false #Toggle if the protection has a chance of failing.
+      Success-Chance: 75 #The chance that the protection will work.
+    Name: '&6&lProtection &6&lCrystal' #Name of the item
+    Lore: #Lore of the item
+      - '&7A rare crystal that is said to'
+      - '&7protect items from getting lost'
+      - '&7while the owners away in the after life.'
+      - ''
+      - '&7&l(&6&l!&7&l) &7Drag and drop on an item.'
+    GUIName: '&6&lProtection &6&lCrystal'
+    GUILore:
+      - '&7A rare crystal that is said to'
+      - '&7protect items from getting lost'
+      - '&7while the owners away in the after life.'
+      - ''
+      - '&eCost: &e&l$500'
+  BlackSmith: #Options for the Black Smith
+    InGUI: true #In the GUI.
+    Slot: 24 #Slot it is in.
+    Item: 'ANVIL' #Item that shows in the GUI
+    Glowing: false #If it has a glowing effect.
+    Name: '&7&lThe &6&lBlack &9&lSmith' #Name of the Item in the GUI
+    Lore: #Lore on the item.
+      - '&6>>&7&nClick to open&6<<'
+    GUIName: '&8&lThe Black Smith' #Name of the Black Smith's GUI
+    Results:
+      None: '&c&lNo Results' #Name of the item when there are no results in the Black Smith
+      Not-Found-Lore:
+        - '&7No results could be found.'
+        - '&7Please put in two books of'
+        - '&7the same enchantment and level.'
+        - '&7Or put in two items to combined'
+        - '&7the enchantments on them.'
+      Found: '&c&lCost: &6&l%cost%XP' #The lore at the bottom of the item
+    Transaction: #Options for the pricing
+      Costs: #Cost options
+        Power-Up: 5 #When an enchantment levels up 1 on an item
+        Add-Enchantment: 3 #When it adds an enchantment to the item from another item
+        Book-Upgrade: 5 #Leveling up the power of a book
+  Tinker: #Settings for Info item in the GUI
+    InGUI: true #Toggle whether it is in the /CE GUI or not
+    Slot: 22 #Slot it is in
+    Item: 'NETHER_STAR' #Item it is
+    Glowing: false #If it has a glowing effect.
+    Name: '&7&lThe &6&lCrazy &9&lTinkerer' #Name of the Item
+    Lore: #Lore of the item
+      - '&6>>&7&nClick to open&6<<'
+  Info: #Settings for Info item in the GUI
+    InGUI: true #Toggle whether it is in the /CE GUI or not
+    Slot: 23 #Slot it is in
+    Item: 'COMPASS' #Item it is
+    Glowing: true #If it has a glowing effect.
+    Name: '&eInfo on the Enchantments' #Name of the Item
+    Lore: #Lore of the item
+      - '&6>>&7&nClick to view&6<<'
+  Dust: #Settings for the Magical Dust
+    MysteryDust:
+      Item: 'SULPHUR' #Item mystery dust is
+      Name: '&7Mystery Dust' #Name of the dust
+      Lore: #Use %percent% to set the percent
+        - '&a1-%percent% &7will be on a'
+        - '&aMagical AngelDust &7or &eMagical Fixing &7Dust'
+        - '&7&l(&6&l!&7&l) &7Right click'
+      Firework:
+        Toggle: true #Toggle if the firework happens on open.
+        Colors: 'Black, Gray, Lime' #The colors the firework will be.
+      Dust-Toggle:
+        Success: true #Toggle whether you can get success dust from Mystery Dust.
+        Destroy: true #Toggle whether you can get destroy dust from Mystery Dust.
+        Failed: true #Toggle whether you can get failed dust from Mystery Dust.
+      PercentRange: #Range the mystery rate will be.
+        Max: 30 #Max percent
+        #Min will always be 1.
+    SuccessDust:
+      InGUI: true #If you can buy it in the /CE GUI
+      GUIName: '&aMagical Angel Dust' #Name of the item in the GUI
+      GUILore: #Lore in the GUI.
+        - '&eCost: &a&l$500'
+        - '&7Dust allows you to bring'
+        - '&7up your &aSuccess Rate&7.'
+      Slot: 25 #Slot number it is on
+      Item: 'SUGAR' #Item the dust is
+      Name: '&aMagical Angel Dust' #Name of the dust
+      Lore: #Lore for the dust
+        - '&a+%percent% Success Rate'
+        - '&7Apply to an Enchantment Book to'
+        - '&7Increase the Success Rate by &e%percent%'
+      PercentRange: #Range the success rate will be.
+        Max: 30 #Max percent
+        Min: 2 #Minimum percent
+    DestroyDust:
+      InGUI: true #If you can buy it in the /CE GUI
+      GUIName: '&eMagical Fixing Dust' #Name of the item in the GUI
+      GUILore: #Lore in the GUI.
+        - '&eCost: &a&l$500'
+        - '&7Dust allows you to bring'
+        - '&7down your &4Destroy Rate&7.'
+      Slot: 34 #Slot number it is on
+      Item: 'REDSTONE' #Item the dust is
+      Name: '&eMagical Fixing Dust' #Name of the dust
+      Lore: #Lore for the dust
+        - '&c-%percent% Destroy Rate'
+        - '&7Apply to an Enchantment Book to'
+        - '&7Decrease the Destroy Rate by &e%percent%'
+      PercentRange: #Range the destroy rate will be.
+        Max: 10 #Max percent
+        Min: 2 #Minimum percent
+    FailedDust:
+      Item: 'SULPHUR' #Item the dust is
+      Name: '&7Failed Dust' #Name of the dust
+      Lore: #Lore for the dust
+        - '&7This dust has failed.'
+        - '&7It is now useless unless you'
+        - '&7needed to make TNT or a throwable potion.'
+  BlackScroll: #Settings for the black scrolls
+    Item: 'INK_SACK' #The item the black scroll can be
+    Name: '&8&l&nBlack Scroll' #The name of the black scroll
+    Item-Lore: #The lore that will be on the black scroll.
+      - '&7Have a custom enchantment you don''t want?'
+      - '&7Drag and drop this on an item with a custom enchantment'
+      - '&7and it will remove a random enchantment for you.'
+      - '&7&l(&6&l!&7&l) &7Only works on Custom Enchantments.'
+    Chance-Toggle: false #Toggle on and off if the black scrolls have a chance of failing.
+    Chance: 75 #The chance that the black scroll will work.
+    InGUI: true #Toggle being able to buy in the /CE GUI. Cost is controlled in the SignOptions section
+    GUIName: '&7Black Scroll'
+    Glowing: false #If it has a glowing effect.
+    Slot: 21 #Slot you can buy the scroll at
+    Lore: #Lore of the item in the GUI
+      - '&eCost: &a&l$1000'
+      - '&7Black Scrolls allow you to'
+      - '&7take off random enchantments.'
+    SuccessChance: #Controls what the success chance will be when they get the book from the Black Scroll
+      Max: 75 #The Max percent
+      Min: 35 #The Minimum percent
+    DestroyChance: #Controls what the destroy chance will be when they get the book from the Black Scroll
+      Max: 25 #The Max percent
+      Min: 5 #The Minimum percent
+  WhiteScroll:
+    Item: 'PAPER' #The item the white scroll is.
+    Name: '&e&lWhite Scroll' #The name of the white scrolls.
+    Item-Lore: #The lore that will be on the white scroll.
+      - '&7Want to protect an item from a book''s destroy rate?'
+      - '&7Drag and drop this on an enchant-able item'
+      - '&7and it will protect the item from the destroy rate.'
+    InGUI: true #Toggle being able to buy in the /CE GUI. Cost is controlled in the SignOptions section
+    GUIName: '&7White Scroll'
+    Glowing: false #If the item is glowing.
+    Slot: 30 #Slot you can buy the scroll at
+    Lore: #Lore of the scroll in the GUI
+      - '&eCost: &a&l$2000'
+      - '&7White Scrolls allow you to'
+      - '&7protect items from breaking.'
+    ProtectedName: '&6&lPROTECTED' #The lore that is added to protect an item.
+  TransmogScroll:
+    Item: 'QUARTZ' #The item the scroll is.
+    Name: '&6&lTransmog Scroll' #The name of the scroll.
+    Item-Lore: #The lore that will be on the scroll.
+      - '&7This scroll allows you to organize'
+      - '&7your enchantments and tell you how many'
+      - '&7enchantments you currently have on the item.'
+    InGUI: false #Toggle being able to buy in the /CE GUI. Cost is controlled in the SignOptions section
+    GUIName: '&6Transmog Scroll'
+    Glowing: false #If it has a glowing effect.
+    Slot: 30 #Slot you can buy the scroll at
+    Lore: #Lore of the scroll in the GUI
+      - '&eCost: &a&l$200'
+      - '&7This scroll allows you to organize'
+      - '&7your enchantments and tell you how many'
+      - '&7enchantments you currently have on the item.'
+    Amount-of-Enchantments: ' &7[&6&n%amount%&7]' #The suffix that will be added at the end of the item's name.
+    Amount-Toggle: true #If the amount is added to the suffix of the item's name.
+    Count-Vanilla-Enchantments: true #If it counts the vanilla enchantments in the amount.
+  EnchantmentOptions: #Options for enchanted books.
+    MaxAmountOfEnchantmentsToggle: true #Turn on and off the Max amount of enchantments. Use crazyenchantments.limit.# permission to set the limit.
+    IncludeVanillaEnchantments: false #Count Vanilla enchantments also.
+    Enchant-Stacked-Items: false #Turn on if you wish for enchantment books to enchant stacked items.
+    MaxRageLevel: 4 #The max amount of rage that can stack when fighting.
+    Break-Rage-On-Damage: true #If the player is damaged while building rage, it will be broken if this is enabled.
+    Right-Click-Book-Description: true #Toggles whether when you right-click the enchantment book if it messages the player the description or not.
+    UnSafe-Enchantments: true #Having this set to true will allow players to use enchantments levels above the max level.
+    Blast-Full-Durability: true #Toggle if the item takes damage for every block it breaks or just one. True to take full damage or false to take only 1 damage.
+    Right-Click-Enchantment-Table: false #When set to true if a player right-clicks an enchantment table it will open the /ce GUI.
+    EXP-Bug: false #Only needs to be true if the player's XP sometimes glitches to 1Bill after buying an item with all their XP.
+    Lightning-Sound-Range: 160 #Range in blocks where the lightning sound should become inaudible.
+    Ally-Mobs: #The name of ally mobs that show above their heads.
+      Wolf: '&6%player%''s Saberwolf'
+      Iron-Golem: '&6%player%''s Golem'
+      Zombie: '&2%player%''s Undead'
+      Endermite: '&6%player%''s Endermite'
+      Silverfish: '&7%player%''s Silverfish'
+      Bee: '&e%player%''s Bee'
+    Armor-Upgrade: #Having this enabled will allow players to try and add a higher level of an enchantment onto an item with a lower level of the enchantment.
+      Toggle: true #Toggle on or off the ability to upgrade the enchantments.
+      Enchantment-Break: true #If the book's destroy rate happens the item doesn't break but instead the current lower version of the enchantment is destroyed. If false then the item will be destroyed instead.
+    Wings: #Options for the Wings Enchantment.
+      Clouds: true #Toggle if the wings enchantment shows particles under the player's feet. Warning this option has been known to cause lag so toggle it off if you get lag.
+      Enemy-Toggle: true #This toggles on and off the wings enchantment when an enemy is close to the player.
+      Distance: 25 #How far away the enemy has to be to toggle off the enchantment.
+      Members-Can-Fly: true #Toggle if a player is a member of a world guard region if they can fly.
+      Owners-Can-Fly: true #Toggle if a player is an owner of a world guard region if they can fly.
+      Regions: #All world guard regions the Wings enchantment can work in.
+        - 'Free_Fly'
+        - 'SafeZone'
+      Worlds: #The option to disable/enable wings in worlds.
+        Limitless-Flight-Worlds: #Worlds that players are allowed to fly for a limitless amount of time. This bypasses enemy checks as well.
+          - 'Hub_Example'
+        Whitelisted: #If the player has wings enchantment in these worlds they will be able to fly anywhere regardless of regions/enemies.
+          - 'Hub_Example'
+        Blacklisted: #Wings will not work at all in these worlds regardless of regions.
+          - 'SkyBlock_Example'
+  Costs: #This is where you set the cost of stuff in the shop GUI.
+    Scrambler: #The item that is being bought.
+      Cost: 800 #How much the item will cost.
+    ProtectionCrystal:
+      Cost: 500
+    TransmogScroll:
+      Cost: 200
+    BlackScroll:
+      Cost: 1000
+    WhiteScroll:
+      Cost: 2000
+    SuccessDust:
+      Cost: 500
+    DestroyDust:
+      Cost: 500
+  SignOptions: #Options for the Signs.
+    CategoryShopStyle: #What the sign will look like. The price will be determined by the category you pick
+      Line1: '&6&lCrazy Enchant' #Line 1 of the sign
+      Line2: '&6&lShop:' #Line 2 of the sign
+      Line3: '&2&l%category%' #Line 3 of the sign
+      Line4: '&c&lCost: &6&l%cost%XP' #Line 4 of the sign
+      Buy-Message: '&7You have just bought an enchantment book, and it is %bookname%&7 from the %category%&7 tier.'
+    ProtectionCrystalStyle:
+      Line1: '&6&lCrazy Enchant'
+      Line2: '&6&lShop:'
+      Line3: '&6&lProtection &6&lCrystal'
+      Line4: '&c&lCost: &a&l$500'
+      Buy-Message: '&7You have just bought a &6&lProtection &6&lCrystal.' #Message when buying an item.
+    ScramblerStyle:
+      Line1: '&6&lCrazy Enchant'
+      Line2: '&6&lShop:'
+      Line3: '&e&lScrambler'
+      Line4: '&c&lCost: &a&l$800'
+      Buy-Message: '&7You have just bought a &e&lThe Grand Scrambler&7.' #Message when buying an item.
+    SuccessDustStyle:
+      Line1: '&6&lCrazy Enchant'
+      Line2: '&6&lShop:'
+      Line3: '&e&lMagical Angel Dust'
+      Line4: '&c&lCost: &a&l$500'
+      Buy-Message: '&7You have just bought a &aMagical Angel Dust&7.'
+    DestroyDustStyle:
+      Line1: '&6&lCrazy Enchant'
+      Line2: '&6&lShop:'
+      Line3: '&e&lMagical Fixing Dust'
+      Line4: '&c&lCost: &a&l$500'
+      Buy-Message: '&7You have just bought a &eMagical Fixing Dust&7.'
+    BlackScrollStyle:
+      Line1: '&6&lCrazy Enchant'
+      Line2: '&6&lShop:'
+      Line3: '&4&lBlack &8&lScrolls'
+      Line4: '&c&lCost: &a&l$1000'
+      Buy-Message: '&7You have just bought a &8&l&nBlack Scroll&7.'
+    WhiteScrollStyle:
+      Line1: '&6&lCrazy Enchant'
+      Line2: '&6&lShop:'
+      Line3: '&f&lWhite &6&lScrolls'
+      Line4: '&c&lCost: &a&l$2000'
+      Buy-Message: '&7You have just bought a &e&lWhite Scroll&7.'
+    TransmogScrollStyle:
+      Line1: '&6&lCrazy Enchant'
+      Line2: '&6&lShop:'
+      Line3: '&6&lTransmog &6&lScrolls'
+      Line4: '&c&lCost: &a&l$200'
+      Buy-Message: '&7You have just bought a &6&lTransmog Scroll&7.'
+Categories: #You can make as many different categories as you want
+  Common: #Name of the category
+    Name: '&a&l&nCommon' #Name in the GUI
+    Slot: 31 #The Slot number the item will be in
+    InGUI: true #Toggle if it's in the GUI or not.
+    Lore: #The lore of the Item
+      - '&eCost: &6&l20 &6XP Levels'
+    Item: 'STAINED_GLASS_PANE' #The id for the item
+    Data: 5
+    Glowing: true #If the item has a glowing effect.
+    Cost: 20 #How much each book will cost to buy.
+    Rarity: 1 #This allows the enchantments to be ordered with the Transmog Scrolls. The higher the number the rarer it is. Try and have each category have different rarities.
+    LostBook: #Controls the Lost Book shop for this tier
+      InGUI: false #If it shows in the /CE Gui
+      Slot: 31 #Slot it will be in
+      Item: 'BOOK' #The item that is shown in the GUI
+      Glowing: false #If the item has a glowing effect.
+      Name: '&8&l&nLost&c&l Tier1 &8&l&nBooks' #Name of the item
+      Lore: #Lore on the item
+        - '&7These are lost books that are'
+        - '&7Said to be &c&lTier1 &7Enchantment books.'
+        - '&7But no one has tried to clean the books yet.'
+        - '&7Will you be the one to clean the books?'
+        - ''
+        - '&c&lCost: &6&l$1000'
+      Cost: 1000
+      Sound-Toggle: false
+      Sound: 'ANVIL_USE'
+    EnchOptions: #Enchantment Options
+      SuccessPercent: #The range for the success rate that the enchantment will have
+        Max: 90 #The max success rate
+        Min: 40 #The min success rate
+      DestroyPercent: #The range for the destroy rate that the enchantment will have
+        Max: 10 #The max destroy rate
+        Min: 0 #The min destroy rate
+      MaxLvlToggle: true #Turn on and off Max Level cap
+      LvlRange: #The range of levels that can be found in the Category.
+        Max: 2
+        Min: 1
+  Rare:
+    Name: '&9&l&nRare'
+    Slot: 32
+    InGUI: true
+    Lore:
+      - '&eCost: &6&l40 &6XP Levels'
+    Item: 'STAINED_GLASS_PANE'
+    Data: 11
+    Glowing: true
+    Cost: 40
+    Rarity: 2
+    LostBook:
+      InGUI: false
+      Slot: 32
+      Item: 'BOOK'
+      Glowing: false
+      Name: '&8&l&nLost&c&l Tier2 &8&l&nBooks'
+      Lore:
+        - '&7These are lost books that are'
+        - '&7Said to be &c&lTier2 &7Enchantment books.'
+        - '&7But no one has tried to clean the books yet.'
+        - '&7Will you be the one to clean the books?'
+        - ''
+        - '&c&lCost: &6&l$2000'
+      Cost: 2000
+      Sound-Toggle: false
+      Sound: 'ANVIL_USE'
+    EnchOptions:
+      SuccessPercent:
+        Max: 70
+        Min: 35
+      DestroyPercent:
+        Max: 25
+        Min: 10
+      MaxLvlToggle: true
+      LvlRange:
+        Max: 3
+        Min: 2
+  Legendary:
+    Name: '&4&l&nLegendary'
+    Slot: 33
+    InGUI: true
+    Lore:
+      - '&eCost: &6&l60 &6XP Levels'
+    Item: 'STAINED_GLASS_PANE'
+    Data: 14
+    Glowing: true
+    Cost: 60
+    Rarity: 3
+    LostBook:
+      InGUI: false
+      Slot: 33
+      Item: 'BOOK'
+      Glowing: false
+      Name: '&8&l&nLost&c&l Tier3 &8&l&nBooks'
+      Lore:
+        - '&7These are lost books that are'
+        - '&7Said to be &c&lTier3 &7Enchantment books.'
+        - '&7But no one has tried to clean the books yet.'
+        - '&7Will you be the one to clean the books?'
+        - ''
+        - '&c&lCost: &6&l$3000'
+      Cost: 3000
+      FireworkToggle: true
+      FireworkColors: 'White, Gray'
+      Sound-Toggle: false
+      Sound: 'ANVIL_USE'
+    EnchOptions:
+      SuccessPercent:
+        Max: 50
+        Min: 25
+      DestroyPercent:
+        Max: 35
+        Min: 15
+      MaxLvlToggle: true
+      LvlRange:
+        Max: 5
+        Min: 3
+
+
+
+#=====================================
+#         ENCHANTMENT TYPES
+#=====================================
+
+Info-GUI-Settings:
+  Inventory:
+    Name: '&c&lEnchantment Info'
+    Size: 18
+  Back-Item:
+    Right:
+      Item: 'NETHER_STAR'
+      Name: '&7&l<<&6&lBack'
+      Lore: [ ]
+    Left:
+      Item: 'NETHER_STAR'
+      Name: '&6&lBack&7&l>>'
+      Lore: [ ]
+Types:
+  Helmet:
+    Display-Item:
+      Item: 'GOLD_HELMET'
+      Slot: 1
+      Name: '&e&lHelmet Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- Leather Helmet'
+        - '&a- Chain Helmet'
+        - '&a- Gold Helmet'
+        - '&a- Iron Helmet'
+        - '&a- Diamond Helmet'
+    Enchantable-Items:
+      - 'LEATHER_HELMET'
+      - 'CHAINMAIL_HELMET'
+      - 'GOLD_HELMET'
+      - 'IRON_HELMET'
+      - 'DIAMOND_HELMET'
+  Boots:
+    Display-Item:
+      Item: 'GOLD_BOOTS'
+      Slot: 2
+      Name: '&e&lBoot Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- Leather Boots'
+        - '&a- Chain Boots'
+        - '&a- Gold Boots'
+        - '&a- Iron Boots'
+        - '&a- Diamond Boots'
+    Enchantable-Items:
+      - 'LEATHER_BOOTS'
+      - 'CHAINMAIL_BOOTS'
+      - 'GOLD_BOOTS'
+      - 'IRON_BOOTS'
+      - 'DIAMOND_BOOTS'
+  Attack-Items:
+    Display-Item:
+      Item: 'DIAMOND_SWORD'
+      Slot: 13
+      Name: '&e&lAttack Items Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- Diamond Sword'
+        - '&a- Gold Sword'
+        - '&a- Iron Sword'
+        - '&a- Stone Sword'
+        - '&a- Wooden Sword'
+        - '&a- Diamond Axe'
+        - '&a- Gold Axe'
+        - '&a- Iron Axe'
+        - '&a- Stone Axe'
+        - '&a- Wooden Axe'
+    Enchantable-Items:
+      - 'DIAMOND_SWORD'
+      - 'GOLD_SWORD'
+      - 'IRON_SWORD'
+      - 'STONE_SWORD'
+      - 'WOOD_SWORD'
+      - 'DIAMOND_AXE'
+      - 'GOLD_AXE'
+      - 'IRON_AXE'
+      - 'STONE_AXE'
+      - 'WOOD_AXE'
+  Armor:
+    Display-Item:
+      Item: 'GOLD_CHESTPLATE'
+      Slot: 3
+      Name: '&e&lArmor Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- Leather Armor'
+        - '&a- Chain Armor'
+        - '&a- Gold Armor'
+        - '&a- Iron Armor'
+        - '&a- Diamond Armor'
+    Enchantable-Items:
+      - 'LEATHER_HELMET'
+      - 'CHAINMAIL_HELMET'
+      - 'GOLD_HELMET'
+      - 'IRON_HELMET'
+      - 'DIAMOND_HELMET'
+      - 'LEATHER_CHESTPLATE'
+      - 'CHAINMAIL_CHESTPLATE'
+      - 'GOLD_CHESTPLATE'
+      - 'IRON_CHESTPLATE'
+      - 'DIAMOND_CHESTPLATE'
+      - 'LEATHER_LEGGINGS'
+      - 'CHAINMAIL_LEGGINGS'
+      - 'GOLD_LEGGINGS'
+      - 'IRON_LEGGINGS'
+      - 'DIAMOND_LEGGINGS'
+      - 'LEATHER_BOOTS'
+      - 'CHAINMAIL_BOOTS'
+      - 'GOLD_BOOTS'
+      - 'IRON_BOOTS'
+      - 'DIAMOND_BOOTS'
+  Bow:
+    Display-Item:
+      Item: 'BOW'
+      Slot: 4
+      Name: '&e&lBow Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- Bow'
+    Enchantable-Items:
+      - 'BOW'
+  Sword:
+    Display-Item:
+      Item: 'GOLD_SWORD'
+      Slot: 5
+      Name: '&e&lSword Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- Wooden Sword'
+        - '&a- Stone Sword'
+        - '&a- Gold Sword'
+        - '&a- Iron Sword'
+        - '&a- Diamond Sword'
+    Enchantable-Items:
+      - 'WOOD_SWORD'
+      - 'STONE_SWORD'
+      - 'IRON_SWORD'
+      - 'GOLD_SWORD'
+      - 'DIAMOND_SWORD'
+  Axe:
+    Display-Item:
+      Slot: 6
+      Item: 'GOLD_AXE'
+      Name: '&e&lAxe Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- Wooden Axe'
+        - '&a- Stone Axe'
+        - '&a- Iron Axe'
+        - '&a- Golden Axe'
+        - '&a- Diamond Axe'
+    Enchantable-Items:
+      - 'WOOD_AXE'
+      - 'STONE_AXE'
+      - 'IRON_AXE'
+      - 'GOLD_AXE'
+      - 'DIAMOND_AXE'
+  Hoe:
+    Display-Item:
+      Item: 'GOLD_HOE'
+      Slot: 7
+      Name: '&e&lHoe Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- Wooden Hoe'
+        - '&a- Stone Hoe'
+        - '&a- Gold Hoe'
+        - '&a- Iron Hoe'
+        - '&a- Diamond Hoe'
+    Enchantable-Items:
+      - 'WOOD_HOE'
+      - 'STONE_HOE'
+      - 'IRON_HOE'
+      - 'GOLD_HOE'
+      - 'DIAMOND_HOE'
+  Pickaxe:
+    Display-Item:
+      Item: 'GOLD_PICKAXE'
+      Slot: 8
+      Name: '&e&lPickaxe Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- Wooden Pickaxe'
+        - '&a- Stone Pickaxe'
+        - '&a- Gold Pickaxe'
+        - '&a- Iron Pickaxe'
+        - '&a- Diamond Pickaxe'
+    Enchantable-Items:
+      - 'WOOD_PICKAXE'
+      - 'STONE_PICKAXE'
+      - 'IRON_PICKAXE'
+      - 'GOLD_PICKAXE'
+      - 'DIAMOND_PICKAXE'
+  Tool:
+    Display-Item:
+      Item: 'GOLD_SPADE'
+      Slot: 9
+      Name: '&e&lTool Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- All Pickaxes'
+        - '&a- All Axes'
+        - '&a- All Shovels'
+        - '&a- All Hoes'
+        - '&a- Shears'
+    Enchantable-Items:
+      - 'WOOD_PICKAXE'
+      - 'STONE_PICKAXE'
+      - 'IRON_PICKAXE'
+      - 'GOLD_PICKAXE'
+      - 'DIAMOND_PICKAXE'
+      - 'WOOD_AXE'
+      - 'STONE_AXE'
+      - 'IRON_AXE'
+      - 'GOLD_AXE'
+      - 'DIAMOND_AXE'
+      - 'WOOD_SPADE'
+      - 'STONE_SPADE'
+      - 'IRON_SPADE'
+      - 'GOLD_SPADE'
+      - 'DIAMOND_SPADE'
+      - 'WOOD_HOE'
+      - 'STONE_HOE'
+      - 'IRON_HOE'
+      - 'GOLD_HOE'
+      - 'DIAMOND_HOE'
+      - 'SHEARS'
+  Damaged-Items:
+    Display-Item:
+      Item: 'ANVIL'
+      Data: 2
+      Slot: 14
+      Name: '&e&lDamaged Item Enchantments'
+      Lore:
+        - '&7Enchantable Items:'
+        - '&a- Fishing Rods.'
+        - '&a- Shears'
+        - '&a- All Tools'
+        - '&a- All Armor'
+        - '&a- All Weapons'
+    Enchantable-Items:
+      - 'WOOD_PICKAXE'
+      - 'STONE_PICKAXE'
+      - 'IRON_PICKAXE'
+      - 'GOLD_PICKAXE'
+      - 'DIAMOND_PICKAXE'
+      - 'WOOD_AXE'
+      - 'STONE_AXE'
+      - 'IRON_AXE'
+      - 'GOLD_AXE'
+      - 'DIAMOND_AXE'
+      - 'WOOD_SPADE'
+      - 'STONE_SPADE'
+      - 'IRON_SPADE'
+      - 'GOLD_SPADE'
+      - 'DIAMOND_SPADE'
+      - 'WOOD_HOE'
+      - 'STONE_HOE'
+      - 'IRON_HOE'
+      - 'GOLD_HOE'
+      - 'DIAMOND_HOE'
+      - 'SHEARS'
+      - 'LEATHER_HELMET'
+      - 'CHAINMAIL_HELMET'
+      - 'GOLD_HELMET'
+      - 'IRON_HELMET'
+      - 'DIAMOND_HELMET'
+      - 'LEATHER_CHESTPLATE'
+      - 'CHAINMAIL_CHESTPLATE'
+      - 'GOLD_CHESTPLATE'
+      - 'IRON_CHESTPLATE'
+      - 'DIAMOND_CHESTPLATE'
+      - 'LEATHER_LEGGINGS'
+      - 'CHAINMAIL_LEGGINGS'
+      - 'GOLD_LEGGINGS'
+      - 'IRON_LEGGINGS'
+      - 'DIAMOND_LEGGINGS'
+      - 'LEATHER_BOOTS'
+      - 'CHAINMAIL_BOOTS'
+      - 'GOLD_BOOTS'
+      - 'IRON_BOOTS'
+      - 'DIAMOND_BOOTS'
+      - 'WOOD_SWORD'
+      - 'STONE_SWORD'
+      - 'IRON_SWORD'
+      - 'GOLD_SWORD'
+      - 'DIAMOND_SWORD'
+      - 'BOW'
+      - 'FISHING_ROD'
+
+
+
+#=====================================
+#         ENCHANTMENTS
+#=====================================
+
+# Enchantment Types:
+# - Armor ~ All armor
+# - Helmet
+# - Boots
+# - Bow
+# - Axe
+# - Sword
+# - PickAxe
+# - Hoe
+# - Tool ~ Pickaxes, Axes, Shovels, Hoes, and Shears
+# - All ~ All items listed here
+##########
+# Chance System
+#
+# Chance-System:
+#   Base: # Starting chance.
+#   Increase: # The amount it goes up each level.
+##########
+Enchantments:
+  Infrared:
+    Enabled: true
+    Name: 'Infrared'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 1
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&e&lInfrared &7(&6I&7)'
+      Description:
+        - '&7Give you night vision'
+        - '&7when you put it on you.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aHelmets'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  Decapitation:
+    Enabled: true
+    Name: 'Decapitation'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 5
+    Enchantment-Type: 'Attack-Items'
+    Chance-System:
+      Base: 10
+      Increase: 10
+    Info:
+      Name: '&e&lDecapitation &7(&6I-&6V&7)'
+      Description:
+        - '&7Has a chance to drop'
+        - '&7the player''s head on death.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aAttack Items'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  FireResistance:
+    Enabled: true
+    Name: 'FireResistance'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 1
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&e&lFireResistance &7(&6I&7)'
+      Description:
+        - '&7Gives fire resistance'
+        - '&7when you put it on.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aArmor'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  TurtleShell:
+    Enabled: true
+    Name: 'TurtleShell'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 1
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&e&lTurtleShell &7(&6I&7)'
+      Description:
+        - '&7Gives water breathing'
+        - '&7when you put it on.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&6Enchantable Items: &aArmor'
+    Categories:
+      - 'Common'
+      - 'Rare'
+  Spectral:
+    Enabled: true
+    Name: 'Spectral'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 1
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&e&lSpectral &7(&6I&7)'
+      Description:
+        - '&7Gives fire invisibility'
+        - '&7when you put it on.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aArmor'
+    Categories:
+      - 'Legendary'
+  Gluttony:
+    Enabled: true
+    Name: 'Gluttony'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 5
+    Enchantment-Type: 'Axe'
+    Chance-System:
+      Base: 10
+      Increase: 5
+    Info:
+      Name: '&e&lGluttony &7(&6I-&6V&7)'
+      Description:
+        - '&7Has a chance to'
+        - '&7feed you while fighting.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aAxes'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  Speed:
+    Enabled: true
+    Name: 'Speed'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 3
+    Enchantment-Type: 'Boots'
+    Info:
+      Name: '&e&lSpeed &7(&6I-&6III&7)'
+      Description:
+        - '&7Gives a speed boost'
+        - '&7when you put it on.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aBoots'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  Implants:
+    Enabled: true
+    Name: 'Implants'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 5
+    Enchantment-Type: 'Helmet'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lImplants &7(&6I-&6V&7)'
+      Description:
+        - '&7While moving your hunger will'
+        - '&7start to go up while equipped.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aHelmets'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  Recover:
+    Enabled: true
+    Name: 'Recover'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 1
+    Enchantment-Type: 'Armor'
+    Info:
+      Name: '&e&lRecover &7(&6I&7)'
+      Description:
+        - '&7When you kill a player'
+        - '&7you get absorption and regen.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aArmor'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  Mermaid:
+    Enabled: true
+    Name: 'Mermaid'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 3
+    Enchantment-Type: 'Helmet'
+    Info:
+      Name: '&e&lMermaid &7(&6I-&6III&7)'
+      Description:
+        - '&7Gives you water breathing'
+        - '&7when you put it on.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aHelmets'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  Experience:
+    Enabled: true
+    Name: 'Experience'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 3
+    Enchantment-Type: 'PickAxe'
+    Chance-System:
+      Base: 25
+      Increase: 25
+    Info:
+      Name: '&e&lExperience &7(&6I-&6III&7)'
+      Description:
+        - '&7Has a chance to give'
+        - '&72x or more xp from ores.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aPickaxes'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  Nutrition:
+    Enabled: true
+    Name: 'Nutrition'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 3
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 15
+      Increase: 5
+    Info:
+      Name: '&e&lNutrition &7(&6I-&6III&7)'
+      Description:
+        - '&7Has a chance to'
+        - '&7feed you while fighting.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aSwords'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  HellForged:
+    Enabled: true
+    Name: 'HellForged'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 4
+    Enchantment-Type: 'Damaged-Items'
+    Chance-System:
+      Base: 5
+      Increase: 5
+    Info:
+      Name: '&e&lHellForged &7(&6I-&6IV&7)'
+      Description:
+        - '&7Has a chance to fix up'
+        - '&7your items as you walk.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aArmor, Weapons, Tools, Fishing Rods, and Shears'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  Oxygenate:
+    Enabled: true
+    Name: 'Oxygenate'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 1
+    Enchantment-Type: 'Tool'
+    Info:
+      Name: '&e&lOxygenate &7(&6I&7)'
+      Description:
+        - '&7Gives you water breathing'
+        - '&7when holding item in your hand.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aTools'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+  Headless:
+    Enabled: true
+    Name: 'Headless'
+    Color: '&7'
+    BookColor: '&6&l'
+    MaxPower: 5
+    Enchantment-Type: 'Sword'
+    Chance-System:
+      Base: 10
+      Increase: 10
+    Info:
+      Name: '&e&lHeadless &7(&6I-&6V&7)'
+      Description:
+        - '&7Has a chance to drop'
+        - '&7your enemy''s head on death.'
+        - ''
+        - '&6Found in:'
+        - '&7 - &a&l&nCommon'
+        - '&7 - &9&l&nRare'
+        - '&7 - &4&l&nLegendary'
+        - '&6Enchantable Items: &aSwords'
+    Categories:
+      - 'Common'
+      - 'Rare'
+      - 'Legendary'
+
+
+#=====================================
+#         TINKERER
+#=====================================
+
+Tinkerer:
+  TradeButton: '&eClick to accept the trade' #The Red Buttons in the Tinkerer
+  TradeButton-Lore: #Lore on the trade buttons.
+    - ''
+  BottleOptions:
+    Item: 'EXP_BOTTLE' #Item the XP bottles are
+    Name: '&aRecycled XP' #Name of the Bottle
+    Lore: #Lore of the Bottle
+      - '&a&lRecycled &6%total%XP'
+      - '&7&l(&6&l!&7&l) &7Throw to get XP.'
+Tinker:
+  Vanilla-Enchantments:
+    #Armor Enchantments
+    PROTECTION_ENVIRONMENTAL: 24 #Amount of Xp(Lvl/Total) or Money
+    PROTECTION_FIRE: 20
+    PROTECTION_EXPLOSIONS: 20
+    PROTECTION_PROJECTILE: 20
+    PROTECTION_FALL: 10
+    OXYGEN: 10
+    WATER_WORKER: 15
+    THORNS: 35
+    DEPTH_STRIDER: 15
+    FROST_WALKER: 30
+    VANISHING_CURSE: 25
+    #Sword/Axe Enchantments
+    DAMAGE_ALL: 20
+    DAMAGE_UNDEAD: 10
+    DAMAGE_ARTHROPODS: 10
+    KNOCKBACK: 20
+    FIRE_ASPECT: 25
+    LOOT_BONUS_MOBS: 15
+    BINDING_CURSE: 25
+    MENDING: 25
+    SWEEPING: 35
+    #Tool Enchantments
+    DIG_SPEED: 20
+    SILK_TOUCH: 35
+    DURABILITY: 15
+    LOOT_BONUS_BLOCKS: 20
+    #Bow Enchantments
+    ARROW_DAMAGE: 20
+    ARROW_KNOCKBACK: 20
+    ARROW_FIRE: 25
+    ARROW_INFINITE: 25
+    #Fishing Pole Enchantments
+    LUCK: 15
+    LURE: 15
+  Crazy-Enchantments:
+    Nutrition:
+      Items: 20
+      Book: 5
+    Headless:
+      Items: 20
+      Book: 5
+    Infrared:
+      Items: 20
+      Book: 5
+    Mermaid:
+      Items: 20
+      Book: 5
+    Implants:
+      Items: 20
+      Book: 5
+    Recover:
+      Items: 20
+      Book: 5
+    FireResistance:
+      Items: 20
+      Book: 5
+    Speed:
+      Items: 20
+      Book: 5
+    Gluttony:
+      Items: 20
+      Book: 5
+    Decapitation:
+      Items: 20
+      Book: 5
+    Experience:
+      Items: 20
+      Book: 5
+    Oxygenate:
+      Items: 20
+      Book: 5
+    HellForged:
+      Items: 20
+      Book: 5

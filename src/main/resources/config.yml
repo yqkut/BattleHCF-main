@@ -1,0 +1,11 @@
+Mongo:
+  Host: '45.132.89.30'
+  DBName: 'HCTeams'
+  AuthDB: 'admin'
+  Username: 'asuma1'
+  Password: 'almo12'
+
+borders:
+  world: 1500
+  world_nether: 1500
+  world_the_end: 1500

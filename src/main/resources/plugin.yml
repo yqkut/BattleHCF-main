@@ -1,0 +1,6 @@
+name: bHCF
+version: 1.0
+author: NulledCode
+description: Battle HCF Core made with love by NulledCode (fork of HCTeams)
+main: cc.stormworth.hcf.Main
+depend: [Core]
